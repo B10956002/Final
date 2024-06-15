@@ -43,7 +43,37 @@ main {
     display: block;
 }
 
-/* 響應式設計 */
+.menu{
+    background-color: rgb(121, 102, 102);
+    text-align: center;
+    font-size: 0;
+}
+.menu a{
+    color: #DDD;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(121, 102, 102);
+    font-size: 16px;
+}
+.area{
+    text-align: center;
+    font-size: 0;
+}
+.area a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+}
+.menu a:hover{
+    background-color: #555;
+}
+.floatimg {
+
+    margin: 20px 10px 20px 0px;
+}
+
 @media (max-width: 600px) {
     nav ul li {
         display: block;

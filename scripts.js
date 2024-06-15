@@ -6,7 +6,6 @@ function showPage(pageId) {
     document.getElementById(pageId).classList.remove('hidden');
 }
 
-// 預設顯示首頁
 document.addEventListener('DOMContentLoaded', function() {
     showPage('home');
 });
